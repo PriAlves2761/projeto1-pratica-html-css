@@ -1,0 +1,141 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.entre-contato-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+        
+    width: 1110px;
+
+    margin-top: 94px;   
+
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+    border-top: 1px solid rgba(51, 50, 61,0.15);
+    border-bottom: 1px solid rgba(51, 50, 61,0.15);
+}
+
+.h2-ibarra-7 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+}
+
+.texto-public-4 {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    
+    color: rgba(51, 50, 61,0.8);
+
+    margin-bottom: 54px;
+
+    width: 635px;
+}
+
+.entre-contato-section img {
+    margin-right: 15px;
+}
+
+.contato-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+        
+    width: 1110px;
+
+    padding-top: 48px;  
+}
+
+.form-button {
+    display: flex;
+    flex-direction: column;
+
+    width: 635px;
+}
+
+label {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 30px;
+
+    color: rgba(51, 50, 61,0.8);
+
+    padding-bottom: 8px;
+}
+
+input {
+    all: unset;
+    box-sizing: border-box;
+
+    background:  rgba(51, 50, 61,0.1);
+
+    height: 48px;
+
+    margin-bottom: 24px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    
+    color: #33323D;
+
+    padding: 10px;
+}
+
+input:focus {
+    border: 2px solid #000000;
+}
+
+#txt-mensagem {
+    height: 96px;
+}
+
+button {
+    all: unset;
+    box-sizing: border-box;
+
+    background: #203A4C;
+
+    width: 200px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    letter-spacing: 2px;
+    
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    text-align: center;
+
+    padding: 17px 24px;
+
+    margin-bottom: -41px;
+}
+
+button:hover {
+    background: #5FB4A2;
+}

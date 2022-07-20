@@ -1,0 +1,168 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}  
+
+.flex-start-end {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+} 
+
+.text-btn {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    
+    letter-spacing: 2px;
+    
+    text-transform: uppercase;
+
+    text-decoration: none;
+}
+
+.box-section {
+    width: 1110px;
+    height: 600px;
+}   
+
+.hero {
+    background-image: url(/assets/home/image-homepage-hero.jpg);
+    background-size:1110px;
+
+    margin-top: 54px;
+    margin-bottom: 149px;
+}
+
+.box-texto-hero {
+    background: #FAFAFA;
+
+    width: 445px;
+    height: 357px;
+}
+
+.texto-ola-hero {
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    
+    letter-spacing: -0.446429px;
+
+    color: #33323D;
+
+    padding: 56px 28px 0px 27px;
+}
+
+.btn-sobre-hero {
+    background: #203A4C;
+    
+    width: 200px;
+    height: 48px;
+   
+    margin-top: 53px;
+}
+
+.btn-sobre-hero:hover {
+    background: #5FB4A2;
+}
+
+.txt-btn-sobre {
+    color: #FFFFFF; 
+
+    text-align: center;
+
+    text-decoration: none;
+
+    padding: 17px 0px 17px 0px;
+
+    width: 152px;
+}
+
+.icone-btn-sobre {
+   background:rgba(0, 0, 0, 0.1);
+   
+   padding: 17px;
+}
+
+.icone-btn-sobre {
+    filter:brightness(0) invert(1); 
+}
+
+.img-profile-sobre {
+    width: 540px;
+    height: 600px;
+}
+
+.sobre {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-texto-sobre {
+    margin-bottom: 46px;
+    margin-left: 140px;
+
+    width: 430px;
+    height: 601px;
+
+    border-top: 1px solid rgba(51, 50, 61,0.15);
+    border-bottom: 1px solid rgba(51, 50, 61,0.15);
+
+}
+
+.titulo-sobre {
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+
+    padding-top: 51px;
+
+    margin-bottom: 28px;
+}
+
+.texto-sobre {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: rgba(51, 50, 61,0.8);
+
+    margin-bottom: 24px;
+}
+
+.btn-sobre-portfolio {
+    border: 1px solid #33323D;
+    
+    color: #33323D;
+
+    padding: 17px 28px;
+}
+
+.btn-sobre-portfolio:hover {
+    background: #33323D;
+
+    color: #FAFAFA;
+
+}

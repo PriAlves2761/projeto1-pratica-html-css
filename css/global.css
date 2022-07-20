@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    background: #FAFAFA;
+    
+    min-height: 100vh;
+
+    width: 1440px;
+}
+
+.mr4 {
+    margin-right: 42px;
+}
+
+.mr1 {
+    margin-right: 16px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+
+    color: #33323D;
+    
+    margin: 64px 165px 0px 164px;
+}
+
+.logo-dark {    
+    padding-right: 772px;
+}
+
+.logo-light-footer {
+    padding: 24px 48px 24px 165px;
+}
+
+.nav-header {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nav-selecionada {
+    color: #5FB4A2;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    margin-top: 150px;
+
+    width: 1110px;
+}
+
+.titulo-contato {
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+
+    width: 379px;
+}
+
+.btn-contato {
+    border: 1px solid #33323D;
+    
+    text-decoration: none;
+
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+
+    color: #33323D;
+
+    padding: 17px 50px;
+}
+
+.btn-contato:hover {
+    background: #33323D;
+
+    color: #FAFAFA;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    background: #33323D;
+    
+    width: 1440px;
+    height: 80px;
+
+    margin-top: 150px;
+}
+
+.text-nav-light {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    letter-spacing: 2px;
+    
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.atalhos-sites {
+   padding-left: 588px;
+   padding-right: 165px;
+}
+
+
+
+
+
+
+
