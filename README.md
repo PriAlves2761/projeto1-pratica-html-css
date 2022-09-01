@@ -138,4 +138,4 @@ Seções
 - Footer ![](https://i.imgur.com/P06m37L.png)
 
 
-###### tags: `front-end` `HTML` `CSS`
+###### tags: `front-end` `HTML` `CSS´ ´GIT´
